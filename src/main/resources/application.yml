@@ -1,0 +1,50 @@
+spring:
+  config:
+    import: classpath:application-users.yml
+  session:
+    store-type: jdbc
+    jdbc:
+      initialize-schema: always
+    timeout: 8h
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    employee:
+      url: jdbc:postgresql://localhost:5432/course_employee_db
+      driverClassName: org.postgresql.Driver
+      username: emp
+      password: emp
+    customer:
+      url: jdbc:postgresql://localhost:5432/course_customer_db
+      driverClassName: org.postgresql.Driver
+      username: cust
+      password: cust
+    course:
+      url: jdbc:postgresql://localhost:5432/course_course_db
+      driverClassName: org.postgresql.Driver
+      username: course
+      password: course
+
+server:
+  servlet:
+    session:
+      cookie:
+        name: CATALOG_SESSION
+        http-only: true
+        secure: false
+        max-age: 604800
+
+app:
+  data:
+    seed:
+      enabled: true
+      only-if-empty: true
+      employees: 20
+      customers: 50
+      courses: 30

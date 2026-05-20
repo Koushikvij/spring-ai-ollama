@@ -1,0 +1,20 @@
+# BCrypt (strength 12) password hashes — plaintext credentials are documented in USERS-CREDENTIALS.md
+app:
+  security:
+    users:
+      - username: admin
+        password: "$2a$12$Wq7bY5vfAvXfG0Ck4PYQb.LpcikdzL7CSkA3Eyc033s80ES0J5BJO"
+        role: ROLE_ADMIN
+        display-name: Administrator
+      - username: manager
+        password: "$2a$12$JADCRZgOsffyQ5XDZI.Xm.30U0s1ZJhH7yTF4Ctg7vpKkbai.Cr1."
+        role: ROLE_MANAGER
+        display-name: Manager
+      - username: employee
+        password: "$2a$12$8LV16UVx7XEKIbIIJ8nm9.UGp5yABWKVwva58j158G7ddM33AOF56"
+        role: ROLE_EMPLOYEE
+        display-name: Employee View
+      - username: customer
+        password: "$2a$12$JrUE1zGen6WqkfgHAywp5.UzuauNAHMRT2p69x7WtKmIIoJaR3h9y"
+        role: ROLE_CUSTOMER
+        display-name: Customer View
