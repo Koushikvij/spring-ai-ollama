@@ -116,6 +116,7 @@ public class OllamaController {
 
     @PostMapping("/api/similarity")
     public double getSimilarity(@RequestParam String text1, @RequestParam String text2) {
+        logger.info("Calculating similarity for texts: {} and {}", text1, text2);
         float[] embedding1 = embeddingService.embed(text1);
         float[] embedding2 = embeddingService.embed(text2);
         double dotProduct = 0.0;
@@ -126,6 +127,7 @@ public class OllamaController {
             norm1 += embedding1[i] * embedding1[i];
             norm2 += embedding2[i] * embedding2[i]; 
         }
+        logger.debug("Similarity for texts: {} and {}: {}", text1, text2, dotProduct / (Math.sqrt(norm1) * Math.sqrt(norm2)));
         return dotProduct / (Math.sqrt(norm1) * Math.sqrt(norm2));
     }
 }
