@@ -45,7 +45,7 @@ public class OllamaController {
 
         this.chatClient = ChatClient.builder(ollamaChatModel)
                 .defaultOptions(ChatOptions.builder()
-                        .model("mistral:latest") //llama3.1
+                        .model("gpt-oss")
                         .build())
                 .defaultAdvisors(
                         MessageChatMemoryAdvisor.builder(chatMemory).build()

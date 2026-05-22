@@ -15,7 +15,7 @@ public class EmbeddingService {
     @SuppressWarnings("unchecked")
     public float[] embed(String text) {
         Map<String, Object> body = Map.of(
-            "model", "nomic-embed-text",
+            "model", "bge-large:latest",
             "prompt", text.toLowerCase()
         );
 
