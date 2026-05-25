@@ -1,5 +1,7 @@
 package com.koushik.springaicode.controller;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.List;
 import java.util.Map;
 
@@ -7,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
+import java.util.stream.Collectors;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.memory.MessageWindowChatMemory;
 import org.springframework.ai.chat.model.ChatResponse;
@@ -17,19 +20,14 @@ import org.springframework.ai.document.Document;
 import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.koushik.springaicode.service.EmbeddingService;
-
-import io.swagger.v3.oas.annotations.media.ArraySchema;
-
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
@@ -43,18 +41,22 @@ public class OllamaController {
     private final EmbeddingService embeddingService;
 
     private final VectorStore vectorStore;
-    // public OllamaController(OllamaChatModel chatModel) {
-    //     this.chatClient = ChatClient.create(chatModel);
-    // }
 
-    public OllamaController(OllamaChatModel ollamaChatModel,  EmbeddingService embeddingService, VectorStore vectorStore) {
+    // Rolling history of the last MAX_CONTEXT_HISTORY vector-search results.
+    // Each entry is the raw product text retrieved for one fresh query.
+    // Follow-up questions reuse the full history so the model can answer
+    // questions like "compare the prices of all the products you mentioned."
+    private static final int MAX_CONTEXT_HISTORY = 20;
+    private final Deque<String> contextHistory = new ArrayDeque<>();
+
+    public OllamaController(OllamaChatModel ollamaChatModel, EmbeddingService embeddingService, VectorStore vectorStore) {
 
         this.embeddingService = embeddingService;
         this.vectorStore = vectorStore;
 
         this.chatClient = ChatClient.builder(ollamaChatModel)
                 .defaultOptions(ChatOptions.builder()
-                        .model("gpt-oss")
+                        .model("mistral:latest")
                         .build())
                 .defaultAdvisors(
                         MessageChatMemoryAdvisor.builder(chatMemory).build()
@@ -62,27 +64,13 @@ public class OllamaController {
                 .build();
     }
 
-//    public OllamaController(ChatClient.Builder builder) {
-//         ChatModel chatModel = OllamaChatModel.builder().modelManagementOptions(OllamaChatModel.ModelManagementOptions.builder()
-//                 .model("deepseek-r1:latest")
-//                 .build())
-//                 .build();
-//         builder = ChatClient.builder("deepseek-r1:latest");
-//         this.chatClient = builder
-//                .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory)
-//                        .build())
-//                .build();
-
-//    }
-
     @GetMapping("/api/{message}")
     public ResponseEntity<String> getAnswer(@PathVariable String message) {
         ChatResponse chatResponse = chatClient.prompt(message)
                 .call()
                 .chatResponse();
 
-        System.out.println(chatResponse.getMetadata().getModel());
-
+        logger.info("Model used: {}", chatResponse.getMetadata().getModel());
 
         String response = chatResponse
                 .getResult()
@@ -142,8 +130,8 @@ public class OllamaController {
 
     @PostMapping("/api/product")
     public List<Document> getProduct(@RequestParam String text) {
+        logger.info("Searching for product with text: {}", text);
 
-        // return vectorStore.similaritySearch(text);
         return vectorStore.similaritySearch(SearchRequest.builder()
                 .query(text)
                 .topK(5)
@@ -151,5 +139,55 @@ public class OllamaController {
                 .build());
 
     }
+
+    @PostMapping("/api/ask")
+    public String getResultswithRAG(@RequestParam String query) {
+
+        logger.info("Received query for RAG: {}", query);
+
+        // Retrieve relevant documents from the vector store
+        List<Document> docs = vectorStore.similaritySearch(SearchRequest.builder()
+                .query(query)
+                .topK(5)
+                .similarityThreshold(0.6)
+                .build());
+
+        if (!docs.isEmpty()) {
+            // Fresh question — add the new context to the rolling history
+            String newContext = docs.stream()
+                    .map(Document::getText)
+                    .collect(Collectors.joining("\n\n"));
+
+            if (contextHistory.size() >= MAX_CONTEXT_HISTORY) {
+                contextHistory.pollFirst(); // evict the oldest entry
+            }
+            contextHistory.addLast(newContext);
+            logger.info("Vector search returned {} document(s) — history size: {}/{}.",
+                    docs.size(), contextHistory.size(), MAX_CONTEXT_HISTORY);
+        } else {
+            // Follow-up question — history is unchanged; all prior contexts remain available
+            logger.info("Vector search returned no documents — using {} cached context(s) for follow-up.",
+                    contextHistory.size());
+        }
+
+        // Combine the full history so the model can answer questions that span
+        // multiple previous products (e.g. "compare the prices of both items").
+        String combinedContext = String.join("\n\n---\n\n", contextHistory);
+
+        return chatClient
+                .prompt()
+                .system("""
+                        You are a product assistant.
+                        Answer ONLY using the provided product context below.
+                        If the context does not contain the answer, say:
+                        "I don't have enough information in the product catalog."
+
+                        Context:
+                        """ + combinedContext)
+                .user(query)
+                .call()
+                .content();
+    }
+    
 }
 

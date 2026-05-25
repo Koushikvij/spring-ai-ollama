@@ -6,10 +6,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.ai.document.Document;
-import org.springframework.ai.reader.TextReader;
-import org.springframework.ai.transformer.splitter.TokenTextSplitter;
+import org.springframework.ai.vectorstore.VectorStore;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
 import com.koushik.springaicode.entity.Product;
@@ -17,30 +21,27 @@ import com.koushik.springaicode.helper.Helper;
 
 import jakarta.annotation.PostConstruct;
 
-import org.springframework.ai.vectorstore.VectorStore;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.ClassPathResource;
-
 @Component
 public class DataInitializer {
+
+    private static final Logger logger = LoggerFactory.getLogger(DataInitializer.class);
 
     @Autowired
     private VectorStore vectorStore;
 
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
     @PostConstruct
     public void initData() throws IOException {
+        Integer count = jdbcTemplate.queryForObject("SELECT COUNT(*) FROM vector_store", Integer.class);
+        if (count != null && count > 0) {
+            logger.info("Vector store already contains {} documents — skipping initialisation.", count);
+            return;
+        }
+
         Resource resource = new ClassPathResource("product_details.txt");
         String content = new String(resource.getInputStream().readAllBytes(), StandardCharsets.UTF_8);
-
-        // TextReader reader = new TextReader(new ClassPathResource("product_details.txt"));
-        // TokenTextSplitter splitter = new TokenTextSplitter(100,20,5,1000,false);
-        // List<Document> documents = splitter.split(reader.get());
-        // List<Document> documents = reader.get();
-
-        // String content = documents.stream()
-        //     .map(Document::getText)
-        //     .reduce("", (a, b) -> a + "\n" + b);
 
         List<Product> products = parseProducts(content);
         List<Document> docs = products.stream()
@@ -54,8 +55,9 @@ public class DataInitializer {
             .toList();
 
         vectorStore.add(docs);
+        logger.info("Inserted {} products into the vector store.", docs.size());
     }
-    
+
     public List<Product> parseProducts(String content) {
         List<Product> products = new ArrayList<>();
         Helper helper = new Helper();
@@ -65,7 +67,6 @@ public class DataInitializer {
             if (block.trim().isEmpty()) continue;
 
             Product product = new Product();
-
             product.setTitle(helper.extract(block, "\"(.*?)\""));
             product.setDescription(helper.extract(block, "Description:\\s*(.*)"));
             product.setPrice(helper.extract(block, "Price:\\s*(.*)"));

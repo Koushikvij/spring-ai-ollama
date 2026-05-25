@@ -147,3 +147,1047 @@ Description: Quickly removes wrinkles from garments using continuous steam.
 Price: $31.99
 Category: Home Appliances
 Features: 25-second heat-up, Lightweight design, Auto shut-off, 180ml tank
+
+Title: "Portable Bluetooth Speaker"
+Description: Compact 360-degree wireless speaker with deep bass and crisp highs, perfect for outdoor and indoor use.
+Price: $39.99
+Category: Electronics
+Features: 12-hour battery, IPX6 waterproof, Bluetooth 5.0, Built-in mic, USB-C charging
+
+Title: "Noise-Cancelling Headphones"
+Description: Over-ear headphones with active noise cancellation and premium sound quality.
+Price: $79.99
+Category: Electronics
+Features: 30-hour battery, Foldable design, Wired and wireless modes, Soft ear cushions
+
+Title: "Mechanical Keyboard"
+Description: Compact TKL mechanical keyboard with tactile switches for typing and gaming.
+Price: $54.99
+Category: Computer Accessories
+Features: RGB backlight, Anti-ghosting, USB-C detachable cable, PBT keycaps
+
+Title: "Webcam 1080p HD"
+Description: Full HD webcam with autofocus and built-in microphone for video calls and streaming.
+Price: $44.99
+Category: Computer Accessories
+Features: 1080p@30fps, Auto light correction, Plug & play, Wide-angle lens
+
+Title: "Laptop Cooling Pad"
+Description: Dual-fan cooling pad with adjustable height for laptops up to 17 inches.
+Price: $22.99
+Category: Computer Accessories
+Features: 2 USB ports, LED fans, Height adjustable, Silent operation
+
+Title: "Portable SSD 1TB"
+Description: Ultra-fast external solid-state drive with USB-C connectivity.
+Price: $89.99
+Category: Storage
+Features: 1050MB/s read, Shock-resistant, Pocket-sized, Compatible with PC and Mac
+
+Title: "Smart Watch Fitness Tracker"
+Description: Feature-rich smartwatch with health monitoring and smartphone notifications.
+Price: $59.99
+Category: Wearables
+Features: Heart rate monitor, SpO2 sensor, GPS, 7-day battery, Water-resistant
+
+Title: "Wireless Earphones with Mic"
+Description: Ergonomic neckband earphones with magnetic buds and noise isolation.
+Price: $24.99
+Category: Electronics
+Features: 10-hour battery, Magnetic snap, IPX5, Fast charge, CVC noise cancellation
+
+Title: "4K Action Camera"
+Description: Compact action camera with image stabilization for sports and adventure recording.
+Price: $69.99
+Category: Cameras
+Features: 4K@30fps, EIS stabilization, 170° wide angle, Waterproof case included, Wi-Fi
+
+Title: "Ring Light 10-Inch"
+Description: LED ring light with phone holder and adjustable color temperature for photos and videos.
+Price: $26.99
+Category: Photography
+Features: 3 light modes, Dimmable, Tripod stand, Phone clip, USB powered
+
+Title: "Portable Power Bank 20000mAh"
+Description: High-capacity power bank with dual USB and USB-C output for all devices.
+Price: $34.99
+Category: Mobile Accessories
+Features: 20000mAh, PD 22.5W, LCD display, Dual output, Compact build
+
+Title: "Smart Plug Wi-Fi"
+Description: Wi-Fi enabled smart plug for remote control and scheduling of home appliances.
+Price: $14.99
+Category: Smart Home
+Features: Voice control, App scheduling, Energy monitoring, Compact design, No hub needed
+
+Title: "Robot Vacuum Cleaner"
+Description: Automatic robot vacuum with smart mapping and obstacle detection for all floor types.
+Price: $149.99
+Category: Home Appliances
+Features: 2000Pa suction, Auto-charging, App control, HEPA filter, Quiet motor
+
+Title: "Air Fryer 4L"
+Description: Digital air fryer with rapid hot air circulation for healthy and crispy cooking.
+Price: $64.99
+Category: Kitchen Appliances
+Features: 8 presets, Touchscreen, Non-stick basket, 4L capacity, Dishwasher-safe parts
+
+Title: "Electric Kettle 1.7L"
+Description: Fast-boil stainless steel kettle with temperature control and keep-warm function.
+Price: $32.99
+Category: Kitchen Appliances
+Features: 1500W, 5 temperature settings, Auto shut-off, Cordless, BPA-free
+
+Title: "Cold Press Juicer"
+Description: Slow masticating juicer that preserves nutrients and extracts maximum juice.
+Price: $74.99
+Category: Kitchen Appliances
+Features: 60 RPM, Quiet motor, Reverse function, Easy cleanup, Wide feed chute
+
+Title: "Toaster 2-Slice"
+Description: Compact stainless steel toaster with 7 browning levels and cancel function.
+Price: $19.99
+Category: Kitchen Appliances
+Features: Extra-wide slots, Removable crumb tray, Defrost mode, Reheat mode, Compact
+
+Title: "Indoor Plant Pot Set (3-Pack)"
+Description: Minimalist ceramic plant pots with drainage holes and bamboo trays.
+Price: $21.99
+Category: Home & Garden
+Features: 3 sizes included, Drainage hole, Bamboo saucer, Frost-resistant, Neutral colors
+
+Title: "Grow Light for Plants"
+Description: Full-spectrum LED grow light with timer for indoor plants and seedlings.
+Price: $28.99
+Category: Home & Garden
+Features: Full spectrum, 3/9/12h timer, Dimmable, Gooseneck arm, USB powered
+
+Title: "Stainless Steel Water Bottle 1L"
+Description: Double-wall insulated bottle that keeps drinks cold 24 hours or hot 12 hours.
+Price: $18.99
+Category: Sports & Outdoors
+Features: Leak-proof lid, BPA-free, Wide mouth, Sweat-free exterior, Dishwasher-safe
+
+Title: "Resistance Bands Set (5-Pack)"
+Description: Latex resistance bands in 5 resistance levels for strength and rehabilitation training.
+Price: $14.99
+Category: Fitness
+Features: 5 resistance levels, Anti-snap latex, Carry bag included, Suitable for all levels
+
+Title: "Jump Rope Speed Cable"
+Description: Adjustable steel cable jump rope for cardio and fitness training.
+Price: $11.99
+Category: Fitness
+Features: Ball-bearing handles, Adjustable length, Anti-slip grip, Lightweight, Indoor/outdoor
+
+Title: "Pull-Up Bar Doorframe"
+Description: No-screw doorframe pull-up bar supporting multiple grip positions up to 150kg.
+Price: $29.99
+Category: Fitness
+Features: No screws, 8 grip positions, 150kg capacity, Foam grips, Easy install
+
+Title: "Foam Roller for Muscle Recovery"
+Description: High-density EVA foam roller for deep tissue massage and muscle relief.
+Price: $16.99
+Category: Fitness
+Features: High density, 33cm length, Textured surface, Lightweight, Durable EVA
+
+Title: "Adjustable Dumbbell 20kg"
+Description: Space-saving adjustable dumbbell set replacing 15 weights in one.
+Price: $119.99
+Category: Fitness
+Features: 2–20kg range, Quick-adjust dial, Non-slip handle, Compact storage, Steel plates
+
+Title: "Running Belt Waist Pack"
+Description: Slim running waist pack with phone pocket and reflective strip for night safety.
+Price: $12.99
+Category: Sports & Outdoors
+Features: Fits phones up to 6.5", Water-resistant, Reflective strip, Adjustable strap, Earphone hole
+
+Title: "Hiking Trekking Poles (Pair)"
+Description: Lightweight aluminum trekking poles with cork grips and carbide tips.
+Price: $36.99
+Category: Sports & Outdoors
+Features: Telescopic, Shock-absorbing, Cork grip, Carbide tip, Carry bag included
+
+Title: "Camping Lantern Solar LED"
+Description: Collapsible solar-powered LED lantern with USB charging port for outdoor use.
+Price: $19.99
+Category: Camping & Outdoors
+Features: Solar + USB charge, Collapsible, 3 brightness modes, IPX4, 6–12h runtime
+
+Title: "Sleeping Bag -10°C Rating"
+Description: Lightweight mummy sleeping bag rated for cold weather camping and backpacking.
+Price: $49.99
+Category: Camping & Outdoors
+Features: -10°C comfort, Compression sack, Ripstop shell, Soft lining, 1.2kg weight
+
+Title: "Stainless Steel Lunch Box"
+Description: Leak-proof bento lunch box with 3 compartments for meal prep and school.
+Price: $17.49
+Category: Kitchen Storage
+Features: 3 compartments, Leak-proof, BPA-free, Microwave-safe, Dishwasher-safe
+
+Title: "Electric Spin Scrubber"
+Description: Cordless electric scrubber with 3 interchangeable heads for bathroom and kitchen cleaning.
+Price: $33.99
+Category: Cleaning
+Features: 300RPM, 3 brush heads, Waterproof, USB-C charge, Extendable handle
+
+Title: "Handheld Vacuum Cleaner"
+Description: Compact cordless handheld vacuum for quick cleanups on furniture, car, and stairs.
+Price: $38.99
+Category: Cleaning
+Features: 8000Pa suction, HEPA filter, 25-min runtime, USB-C, 2-in-1 crevice tool
+
+Title: "Mop and Bucket Set"
+Description: Flat spin mop with 360° rotating head and self-wringing bucket.
+Price: $27.99
+Category: Cleaning
+Features: Microfiber pad, Self-wringing, 360° rotation, Telescopic handle, Machine-washable pad
+
+Title: "Aromatherapy Diffuser"
+Description: Ultrasonic essential oil diffuser with 7-color LED light and whisper-quiet operation.
+Price: $22.99
+Category: Home Fragrance
+Features: 300ml tank, 7 LED colors, Auto shut-off, 4 timer settings, Whisper-quiet
+
+Title: "Scented Candle Set (6-Pack)"
+Description: Soy wax candles in 6 relaxing fragrances for home ambiance and gifting.
+Price: $24.99
+Category: Home Fragrance
+Features: Soy wax, 30h burn each, Gift box, Cotton wick, Phthalate-free fragrance
+
+Title: "Blackout Curtains (2 Panels)"
+Description: 100% blackout curtains with noise-reducing lining for better sleep.
+Price: $34.99
+Category: Home Décor
+Features: 100% blackout, Noise-reducing, Multiple sizes, Rod pocket & back tab, Machine-washable
+
+Title: "Wall Clock Silent"
+Description: Modern minimalist wall clock with silent sweep movement and large display.
+Price: $19.99
+Category: Home Décor
+Features: Silent sweep, 30cm diameter, AA battery, Easy hang, Clear numerals
+
+Title: "Photo Frame Set (4-Pack)"
+Description: Wooden photo frames in 4x6 and 5x7 sizes for tabletop or wall display.
+Price: $16.99
+Category: Home Décor
+Features: Real wood, 4x6 and 5x7, Wall and tabletop, Shatter-resistant glass, Easy assembly
+
+Title: "Cordless Electric Screwdriver"
+Description: Compact rechargeable screwdriver with 30 bit set for DIY and furniture assembly.
+Price: $29.99
+Category: Tools & Hardware
+Features: 3.6V motor, 30-piece bit set, LED light, USB-C charge, Forward/reverse
+
+Title: "Measuring Tape 5m"
+Description: Heavy-duty retractable measuring tape with magnetic tip and belt clip.
+Price: $8.99
+Category: Tools & Hardware
+Features: 5m length, Magnetic tip, Rubber grip, Auto-lock, Belt clip
+
+Title: "Level Tool Laser"
+Description: Self-leveling laser level with cross-line beam for accurate alignment and hanging.
+Price: $23.99
+Category: Tools & Hardware
+Features: Self-leveling, Horizontal and vertical beam, 15m range, Magnetic base, Battery included
+
+Title: "Paint Roller Set"
+Description: Complete paint roller and tray set for walls and ceilings, latex and oil compatible.
+Price: $13.99
+Category: Tools & Hardware
+Features: 9-inch roller, Deep tray, Extendable handle, 2 roller covers, Drip guard
+
+Title: "Microfiber Cleaning Cloths (12-Pack)"
+Description: Ultra-absorbent microfiber cloths for streak-free cleaning on all surfaces.
+Price: $11.99
+Category: Cleaning
+Features: 12-pack, 40x40cm, 400 GSM, Machine-washable, Lint-free
+
+Title: "Dish Drying Rack"
+Description: Stainless steel dish rack with drip tray and utensil holder for countertop drying.
+Price: $24.99
+Category: Kitchen Tools
+Features: Rust-resistant steel, Removable drip tray, Utensil holder, Non-slip feet, Compact
+
+Title: "Bamboo Cutting Board Set (3-Pack)"
+Description: Eco-friendly bamboo cutting boards in 3 sizes for all kitchen prep tasks.
+Price: $21.99
+Category: Kitchen Tools
+Features: 3 sizes, Antibacterial bamboo, Juice groove, Easy grip handle, Dishwasher-safe
+
+Title: "Knife Sharpener Electric"
+Description: Two-stage electric knife sharpener for straight and serrated blades.
+Price: $27.99
+Category: Kitchen Tools
+Features: 2-stage sharpening, Diamond abrasives, Non-slip base, Easy to use, Compact
+
+Title: "Spice Rack Organizer (16-Jar)"
+Description: Wall-mounted magnetic spice rack with 16 labelled jars and a whiteboard.
+Price: $32.99
+Category: Kitchen Storage
+Features: 16 jars, Magnetic wall mount, Whiteboard labels, Airtight lids, Rust-free
+
+Title: "Vacuum Food Sealer"
+Description: Compact food vacuum sealer for extending freshness of dry and moist foods.
+Price: $42.99
+Category: Kitchen Appliances
+Features: Dry and moist modes, Auto/manual seal, 10 bags included, Compact, LED indicator
+
+Title: "Non-Stick Baking Pan Set (3-Pack)"
+Description: Carbon steel baking pans with non-stick coating for cakes, brownies, and loaves.
+Price: $29.99
+Category: Kitchen Tools
+Features: 3-pack, Carbon steel, Non-stick, Dishwasher-safe, Even heat distribution
+
+Title: "Insulated Lunch Bag"
+Description: Leak-proof insulated tote bag keeping food hot or cold for up to 6 hours.
+Price: $15.99
+Category: Kitchen Storage
+Features: 6h insulation, Leak-proof lining, Zipper closure, Shoulder strap, Easy-clean interior
+
+Title: "Reusable Silicone Food Bags (6-Pack)"
+Description: Airtight silicone bags for fridge, freezer, and sous vide food storage.
+Price: $19.99
+Category: Kitchen Storage
+Features: Airtight seal, Freezer and oven safe, BPA-free, Dishwasher-safe, 6-pack
+
+Title: "Wooden Desk Organizer"
+Description: Multi-compartment bamboo desk organizer for stationery, files, and devices.
+Price: $22.99
+Category: Office Accessories
+Features: 6 compartments, Solid bamboo, Phone slot, Pencil holder, Cable slot
+
+Title: "Ergonomic Office Chair Cushion"
+Description: Memory foam seat cushion with coccyx cutout for long sitting comfort.
+Price: $28.99
+Category: Office Accessories
+Features: Memory foam, Coccyx relief, Non-slip bottom, Washable cover, Universal fit
+
+Title: "Monitor Stand Riser"
+Description: Bamboo monitor riser with storage drawer and cable management.
+Price: $26.99
+Category: Office Accessories
+Features: Bamboo top, Storage drawer, 2 USB ports, Cable management, Adjustable height
+
+Title: "Whiteboard 60x90cm"
+Description: Magnetic dry-erase whiteboard for office, home, or classroom use.
+Price: $31.99
+Category: Office Supplies
+Features: Magnetic surface, Aluminium frame, Includes marker and eraser, Easy wall mount
+
+Title: "Sticky Notes Assorted (12-Pack)"
+Description: Multicolor self-stick notes in 3x3 inch size for reminders and planning.
+Price: $9.99
+Category: Office Supplies
+Features: 12 pads, 100 sheets each, Assorted colors, Repositionable, Strong adhesive
+
+Title: "Label Maker Machine"
+Description: Handheld label printer for home organization, office filing, and storage labelling.
+Price: $24.99
+Category: Office Supplies
+Features: QWERTY keyboard, Multiple fonts, USB & battery, Prints 6–24pt, Includes tape
+
+Title: "Scientific Calculator"
+Description: Advanced scientific calculator with 417 functions for students and engineers.
+Price: $16.99
+Category: Office Supplies
+Features: 417 functions, Solar + battery, Natural display, Hard case, Multi-line display
+
+Title: "Backpack for Laptop 15.6-Inch"
+Description: Anti-theft laptop backpack with USB charging port and water-resistant fabric.
+Price: $44.99
+Category: Bags & Luggage
+Features: 15.6" laptop sleeve, USB port, Anti-theft pocket, Water-resistant, Ergonomic straps
+
+Title: "Spinner Luggage 20-Inch"
+Description: Lightweight hardshell carry-on suitcase with TSA lock and 4-wheel spinner.
+Price: $74.99
+Category: Bags & Luggage
+Features: ABS hardshell, TSA lock, 4 spinner wheels, Expandable, Telescopic handle
+
+Title: "Packing Cubes Set (6-Pack)"
+Description: Lightweight travel packing cubes in 3 sizes for organized suitcase packing.
+Price: $18.99
+Category: Travel Accessories
+Features: 3 sizes, Mesh top, Double zip, Lightweight, Compressible
+
+Title: "Travel Pillow Memory Foam"
+Description: Ergonomic U-shaped neck pillow for airplane, car, and train travel.
+Price: $19.99
+Category: Travel Accessories
+Features: Memory foam, Machine-washable cover, Snap strap, Compact roll, 360° support
+
+Title: "Passport Holder RFID Blocking"
+Description: Slim leather passport holder with RFID blocking and card slots.
+Price: $13.99
+Category: Travel Accessories
+Features: RFID blocking, PU leather, 4 card slots, Slim fit, Multiple colors
+
+Title: "Sunscreen SPF 50 (200ml)"
+Description: Lightweight, non-greasy broad-spectrum SPF 50 sunscreen for daily face and body use.
+Price: $14.99
+Category: Personal Care
+Features: SPF 50, Broad spectrum, Water-resistant, Non-comedogenic, Reef-safe formula
+
+Title: "Electric Toothbrush"
+Description: Rechargeable sonic toothbrush with 3 cleaning modes and pressure sensor.
+Price: $39.99
+Category: Personal Care
+Features: 40000 strokes/min, 3 modes, Pressure sensor, 4-week battery, 2 brush heads
+
+Title: "Facial Cleansing Brush"
+Description: Silicone sonic face brush for deep cleansing and gentle exfoliation.
+Price: $22.99
+Category: Personal Care
+Features: Silicone bristles, 2 speeds, Waterproof, USB-C charge, Hypoallergenic
+
+Title: "Hair Dryer 2000W"
+Description: Professional ionic hair dryer with 3 heat and 2 speed settings and cool shot.
+Price: $34.99
+Category: Personal Care
+Features: 2000W, Ionic technology, 3 heat settings, Cool shot, Concentrator nozzle
+
+Title: "Flat Iron Hair Straightener"
+Description: Ceramic plates hair straightener with adjustable temperature and auto shut-off.
+Price: $29.99
+Category: Personal Care
+Features: Ceramic plates, 140–230°C, 30s heat-up, Auto shut-off, Dual voltage
+
+Title: "Nail Care Kit (8-Piece)"
+Description: Stainless steel manicure set in a leather zip case for home nail grooming.
+Price: $12.99
+Category: Personal Care
+Features: 8 tools, Stainless steel, Leather case, Sharp and durable, Gift-ready
+
+Title: "Body Weight Scale Smart"
+Description: Digital smart scale with BMI, body fat, and muscle mass tracking via app.
+Price: $27.99
+Category: Health & Wellness
+Features: 13 body metrics, Bluetooth app, 180kg capacity, Tempered glass, Auto-on
+
+Title: "Blood Pressure Monitor"
+Description: Upper-arm digital blood pressure monitor with large display and memory for 2 users.
+Price: $36.99
+Category: Health & Wellness
+Features: Clinical accuracy, 2-user memory, 60-reading storage, Irregular heartbeat alert, USB charge
+
+Title: "Pulse Oximeter"
+Description: Fingertip pulse oximeter for SpO2 and pulse rate measurement with OLED display.
+Price: $17.99
+Category: Health & Wellness
+Features: SpO2 + PR, OLED display, 2s reading, Auto power-off, Lanyard included
+
+Title: "Heating Pad for Back"
+Description: Electric heating pad with 6 heat settings and auto shut-off for muscle pain relief.
+Price: $24.99
+Category: Health & Wellness
+Features: 6 heat levels, Auto shut-off, Moist heat option, Machine-washable cover, Fast heat
+
+Title: "Massage Gun Percussion"
+Description: Deep tissue percussion massage gun with 6 heads and quiet brushless motor.
+Price: $59.99
+Category: Health & Wellness
+Features: 6 heads, 3200RPM, 3h battery, Quiet motor, Carry case included
+
+Title: "Posture Corrector"
+Description: Adjustable back brace posture corrector for upper back and shoulder alignment.
+Price: $18.99
+Category: Health & Wellness
+Features: Adjustable straps, Breathable fabric, Unisex, Wear under clothing, Lightweight
+
+Title: "Kids Building Blocks (100-Piece)"
+Description: Classic colorful building blocks for creative play and motor skill development.
+Price: $21.99
+Category: Toys & Games
+Features: 100 pieces, BPA-free plastic, 8 colors, Compatible with major brands, Storage box
+
+Title: "Remote Control Car"
+Description: 4WD off-road RC car with 2.4GHz remote, rechargeable battery, and 35km/h speed.
+Price: $44.99
+Category: Toys & Games
+Features: 4WD, 35km/h, 2.4GHz, Rechargeable, 30-min runtime
+
+Title: "Puzzle 1000-Piece"
+Description: High-quality 1000-piece jigsaw puzzle with vivid landscape artwork.
+Price: $16.99
+Category: Toys & Games
+Features: 1000 pieces, 70x50cm, Premium print, Linen texture, All ages
+
+Title: "Card Game UNO Style"
+Description: Classic family card game for 2–10 players with special action cards.
+Price: $9.99
+Category: Toys & Games
+Features: 108 cards, 2–10 players, Ages 7+, Travel-friendly, Durable cards
+
+Title: "Chess Set Wooden"
+Description: Handcrafted wooden chess set with weighted pieces and folding board.
+Price: $27.99
+Category: Toys & Games
+Features: Weighted pieces, Folding storage board, Felt base, Chess notation, All ages
+
+Title: "Kids Smartwatch"
+Description: Educational smartwatch for kids with games, camera, and parental controls.
+Price: $32.99
+Category: Kids Electronics
+Features: 8 games, 0.3MP camera, Pedometer, Alarm clock, Water-resistant
+
+Title: "Baby Monitor Wi-Fi"
+Description: HD Wi-Fi baby monitor with night vision, two-way audio, and temperature sensor.
+Price: $54.99
+Category: Baby & Kids
+Features: 1080p HD, Night vision, Two-way audio, Temperature alert, App control
+
+Title: "Car Seat Organizer"
+Description: Multi-pocket back seat organizer with tablet holder and foldable tray table.
+Price: $17.99
+Category: Automotive
+Features: 8 pockets, Tablet holder, Foldable tray, Waterproof, Easy install
+
+Title: "Car Phone Mount Dashboard"
+Description: Universal magnetic dashboard phone mount with strong suction cup for all car models.
+Price: $11.99
+Category: Automotive
+Features: Magnetic hold, 360° rotation, Suction cup, Universal fit, One-hand operation
+
+Title: "Car Vacuum Cleaner 12V"
+Description: Compact 12V car vacuum with HEPA filter for wet and dry cleaning.
+Price: $22.99
+Category: Automotive
+Features: 12V plug-in, Wet & dry, HEPA filter, 5m cord, 3 nozzles
+
+Title: "Dash Cam 1080p"
+Description: Front dash camera with wide-angle lens, loop recording, and G-sensor.
+Price: $39.99
+Category: Automotive
+Features: 1080p, 150° wide angle, Loop recording, G-sensor, Night vision
+
+Title: "Dog Leash Retractable 5m"
+Description: Retractable 5-metre dog leash with ergonomic handle and one-button brake.
+Price: $14.99
+Category: Pet Supplies
+Features: 5m length, One-button brake, Non-slip handle, Up to 25kg, Reflective cord
+
+Title: "Cat Scratcher Cardboard"
+Description: Reversible corrugated cardboard cat scratcher with catnip for natural scratching behavior.
+Price: $12.99
+Category: Pet Supplies
+Features: Reversible, Catnip included, Corrugated cardboard, Protects furniture, Recyclable
+
+Title: "Pet Water Fountain 2L"
+Description: Automatic circulating pet water fountain with carbon filter for cats and dogs.
+Price: $23.99
+Category: Pet Supplies
+Features: 2L capacity, Carbon filter, Ultra-quiet pump, LED indicator, BPA-free
+
+Title: "Stainless Steel Pet Bowls (2-Pack)"
+Description: Non-slip stainless steel food and water bowls for dogs and cats.
+Price: $10.99
+Category: Pet Supplies
+Features: Non-slip rubber base, Dishwasher-safe, Rust-resistant, 2-pack, Multiple sizes
+
+Title: "Aquarium LED Light"
+Description: Submersible LED aquarium light with timer and adjustable brightness for fish tanks.
+Price: $18.99
+Category: Pet Supplies
+Features: 7 colors, Timer function, Waterproof, Adjustable length, Clip mount
+
+Title: "Sketch Pad A4 (200 Sheets)"
+Description: Professional 160GSM sketch pad for pencil, charcoal, and light watercolor work.
+Price: $12.99
+Category: Art & Craft
+Features: 200 sheets, 160GSM, A4 size, Spiral bound, Acid-free paper
+
+Title: "Acrylic Paint Set (24 Colors)"
+Description: Vibrant acrylic paints in 24 colors with high pigmentation for canvas and paper.
+Price: $19.99
+Category: Art & Craft
+Features: 24 colors, 22ml tubes, Non-toxic, Water-soluble, Works on multiple surfaces
+
+Title: "Calligraphy Pen Set"
+Description: Complete calligraphy set with 3 nibs, ink, and practice sheets for beginners.
+Price: $15.99
+Category: Art & Craft
+Features: 3 nib sizes, Black ink, Practice sheets, Beginner-friendly, Gift box
+
+Title: "Sewing Kit Portable"
+Description: Compact travel sewing kit with 38 accessories for quick repairs and hand sewing.
+Price: $9.99
+Category: Art & Craft
+Features: 38 pieces, Compact case, 12 thread colors, Scissors included, Portable
+
+Title: "Wireless Presenter Clicker"
+Description: Rechargeable laser pointer and slide clicker with 100-metre wireless range.
+Price: $21.99
+Category: Office Accessories
+Features: 100m range, Laser pointer, USB receiver, Rechargeable, Compatible with PPT/PDF
+
+Title: "Bamboo Toothbrush Set (4-Pack)"
+Description: Eco-friendly biodegradable bamboo toothbrushes with medium-soft bristles.
+Price: $8.99
+Category: Personal Care
+Features: 4-pack, Biodegradable, Medium-soft bristles, Charcoal-infused, BPA-free
+
+Title: "Shower Head High Pressure"
+Description: Handheld high-pressure shower head with 5 spray settings and self-cleaning nozzles.
+Price: $23.99
+Category: Bathroom
+Features: 5 spray modes, Self-cleaning, Adjustable bracket, Chrome finish, Standard fit
+
+Title: "Toilet Brush Silicone"
+Description: Modern silicone toilet brush with ventilated holder for hygienic storage.
+Price: $14.99
+Category: Bathroom
+Features: Silicone bristles, Ventilated holder, Quick-dry, No-touch design, Wall-mount option
+
+Title: "Bath Towel Set (4-Pack)"
+Description: 100% cotton hotel-quality bath towels in a set of 4 quick-dry towels.
+Price: $29.99
+Category: Bathroom
+Features: 100% cotton, 600 GSM, Quick-dry, 4-pack, Fade-resistant
+
+Title: "Hanging Shoe Organizer (24-Pocket)"
+Description: Over-the-door shoe organizer with 24 clear pockets for shoes and accessories.
+Price: $13.99
+Category: Storage & Organisation
+Features: 24 pockets, Over-door, Clear pockets, Reinforced hooks, Easy install
+
+Title: "Vacuum Storage Bags (8-Pack)"
+Description: Space-saving vacuum seal bags for clothes, bedding, and seasonal storage.
+Price: $17.99
+Category: Storage & Organisation
+Features: 8 bags, 3 sizes, Triple-seal valve, Hand pump compatible, Reusable
+
+Title: "Drawer Organizer Set (8-Pack)"
+Description: Interlocking bamboo drawer dividers for cutlery, clothing, and desk storage.
+Price: $19.99
+Category: Storage & Organisation
+Features: 8 pieces, Bamboo, Adjustable dividers, Multiple uses, Eco-friendly
+
+Title: "Reading Glasses +2.0"
+Description: Lightweight anti-blue-light reading glasses with spring hinge and clear lenses.
+Price: $12.99
+Category: Health & Wellness
+Features: Anti-blue light, Spring hinge, Lightweight, Unisex, Includes case
+
+Title: "Insect Repellent Wristband (4-Pack)"
+Description: DEET-free mosquito repellent wristbands lasting up to 720 hours of protection.
+Price: $10.99
+Category: Health & Wellness
+Features: DEET-free, 720h protection, Water-resistant, Adjustable, 4-pack
+
+Title: "Foldable Shopping Trolley"
+Description: Lightweight wheeled shopping trolley with insulated bag and 40kg capacity.
+Price: $37.99
+Category: Home & Kitchen
+Features: 40kg capacity, Insulated bag, Foldable frame, 4 wheels, Telescopic handle
+
+Title: "Women's Yoga Leggings"
+Description: High-waist compression leggings with four-way stretch and moisture-wicking fabric.
+Price: $27.99
+Category: Women's Fashion
+Features: High-waist, 4-way stretch, Moisture-wicking, Side pockets, Squat-proof
+
+Title: "Men's Casual Hoodie"
+Description: Soft fleece-lined pullover hoodie with kangaroo pocket and ribbed cuffs.
+Price: $34.99
+Category: Men's Fashion
+Features: Fleece-lined, Kangaroo pocket, Ribbed cuffs, Relaxed fit, Machine-washable
+
+Title: "Women's Tote Bag"
+Description: Large canvas tote bag with inner zipper pocket and reinforced handles.
+Price: $22.99
+Category: Women's Fashion
+Features: Inner zip pocket, Reinforced handles, Canvas material, Magnetic snap, Shoulder strap
+
+Title: "Men's Slim Fit Chinos"
+Description: Stretch cotton chino trousers with slim fit and wrinkle-resistant finish.
+Price: $39.99
+Category: Men's Fashion
+Features: Stretch cotton, Slim fit, Wrinkle-resistant, 4 pockets, Machine-washable
+
+Title: "Women's Sneakers"
+Description: Lightweight lace-up sneakers with memory foam insole and breathable mesh upper.
+Price: $44.99
+Category: Women's Fashion
+Features: Memory foam insole, Mesh upper, Non-slip sole, Lightweight, Multiple colors
+
+Title: "Men's Leather Belt"
+Description: Genuine leather dress belt with a reversible buckle for formal and casual wear.
+Price: $19.99
+Category: Men's Fashion
+Features: Genuine leather, Reversible buckle, Adjustable size, 3.5cm width, Gift box
+
+Title: "Winter Beanie Hat"
+Description: Thick knit beanie with a fleece-lined interior for warmth in cold weather.
+Price: $12.99
+Category: Fashion Accessories
+Features: Fleece-lined, Thick knit, One size fits all, Unisex, Multiple colors
+
+Title: "UV Protection Sunglasses"
+Description: Polarized UV400 sunglasses with lightweight frame for outdoor activities.
+Price: $21.99
+Category: Fashion Accessories
+Features: UV400, Polarized lenses, Lightweight frame, Unisex, Includes case
+
+Title: "Leather Wallet Slim"
+Description: Minimalist genuine leather bifold wallet with RFID blocking and 6 card slots.
+Price: $17.99
+Category: Fashion Accessories
+Features: RFID blocking, 6 card slots, Slim profile, Genuine leather, Gift box
+
+Title: "Silk Sleep Mask"
+Description: Contoured silk sleep mask with adjustable strap for complete light blockout.
+Price: $11.99
+Category: Sleep & Relaxation
+Features: 100% silk, Contoured shape, Adjustable strap, Breathable, Travel-friendly
+
+Title: "White Noise Machine"
+Description: Portable sound machine with 30 non-looping sleep sounds and night light.
+Price: $29.99
+Category: Sleep & Relaxation
+Features: 30 sounds, Night light, Timer, USB powered, Compact
+
+Title: "Weighted Blanket 6kg"
+Description: Glass-bead weighted blanket for anxiety relief and deeper sleep.
+Price: $54.99
+Category: Sleep & Relaxation
+Features: 6kg weight, Glass beads, Breathable cotton, 150x200cm, Machine-washable
+
+Title: "Pillow Protector (2-Pack)"
+Description: Waterproof zippered pillow protectors with soft cotton-feel surface.
+Price: $14.99
+Category: Bedding
+Features: Waterproof, Zippered, 2-pack, Standard size, Hypoallergenic
+
+Title: "Fitted Sheet Set"
+Description: 1000 thread count microfibre fitted sheet set including two pillowcases.
+Price: $26.99
+Category: Bedding
+Features: 1000 thread count, Deep pocket, 3-piece set, Fade-resistant, Machine-washable
+
+Title: "Guitar Capo"
+Description: Trigger-style guitar capo for 6-string acoustic and electric guitars.
+Price: $9.99
+Category: Musical Instruments
+Features: Trigger action, Spring-loaded, Fits all 6-string guitars, Lightweight, Zinc alloy
+
+Title: "Ukulele Soprano 21-Inch"
+Description: Beginner soprano ukulele with nylon strings and mahogany body.
+Price: $39.99
+Category: Musical Instruments
+Features: Mahogany body, Nylon strings, Includes bag and picks, Geared tuners, 21 inch
+
+Title: "Digital Piano Keyboard 61-Key"
+Description: Portable 61-key digital piano with weighted keys and built-in speakers.
+Price: $89.99
+Category: Musical Instruments
+Features: 61 keys, 128 tones, Built-in speakers, USB MIDI, Sustain pedal included
+
+Title: "Drum Practice Pad"
+Description: Double-sided practice pad with realistic stick rebound for drum technique training.
+Price: $19.99
+Category: Musical Instruments
+Features: Double-sided, Realistic rebound, Non-slip base, Compact, Includes drumsticks
+
+Title: "Carabiner Clip Set (10-Pack)"
+Description: Lightweight aluminum carabiner clips for keychains, camping, and gym bags.
+Price: $10.99
+Category: Sports & Outdoors
+Features: Aluminium, 10-pack, 25kg load, Screw-lock gate, Multiple colors
+
+Title: "Badminton Racket Set"
+Description: Two lightweight badminton rackets with 3 shuttlecocks and carry bag.
+Price: $24.99
+Category: Sports & Outdoors
+Features: 2 rackets, 3 shuttlecocks, Carry bag, Lightweight aluminium, All ages
+
+Title: "Table Tennis Set"
+Description: Complete table tennis set with 2 paddles, 6 balls, and a retractable net.
+Price: $22.99
+Category: Sports & Outdoors
+Features: 2 paddles, 6 balls, Retractable net, Carry bag, Fits any table
+
+Title: "Football Size 5"
+Description: Durable PU leather football with butyl bladder for match and training use.
+Price: $19.99
+Category: Sports & Outdoors
+Features: Size 5, PU leather, Butyl bladder, Machine-stitched, All weather
+
+Title: "Basketball Hoop Indoor"
+Description: Mini over-door basketball hoop with foam ball for indoor office and bedroom play.
+Price: $16.99
+Category: Toys & Games
+Features: Over-door mount, Foam ball included, Adjustable height, Easy install, Kids & adults
+
+Title: "Skipping Counter Digital"
+Description: Cordless digital jump rope counter with calorie and time tracking display.
+Price: $13.99
+Category: Fitness
+Features: Cordless, Digital counter, Calorie tracking, Timer, Adjustable length
+
+Title: "Garden Trowel Set (3-Piece)"
+Description: Stainless steel hand trowel set with ergonomic grip for planting and digging.
+Price: $16.99
+Category: Garden
+Features: 3-piece set, Stainless steel, Ergonomic handle, Depth markings, Rust-resistant
+
+Title: "Garden Gloves (2-Pair)"
+Description: Thorn-resistant gardening gloves with nitrile coating and breathable back.
+Price: $11.99
+Category: Garden
+Features: Thorn-resistant, Nitrile coated, Breathable back, 2-pair, Machine-washable
+
+Title: "Plant Watering Can 2L"
+Description: Indoor watering can with long spout for precise watering of potted plants.
+Price: $14.99
+Category: Garden
+Features: 2L capacity, Long spout, Lightweight, Anti-rust steel, Modern design
+
+Title: "Compost Bin 50L"
+Description: Outdoor kitchen and garden compost bin with locking lid and aeration vents.
+Price: $32.99
+Category: Garden
+Features: 50L capacity, Locking lid, Aeration vents, UV-resistant, Easy-open design
+
+Title: "Bird Feeder Hanging"
+Description: Transparent seed bird feeder with perch ring and strong hanging wire.
+Price: $12.99
+Category: Garden
+Features: Transparent, Easy refill, Perch ring, Hanging wire, Weather-resistant
+
+Title: "Knee Pads for Garden"
+Description: Thick foam knee pads with adjustable straps for comfortable garden kneeling.
+Price: $13.99
+Category: Garden
+Features: Thick foam, Adjustable straps, Non-slip surface, Lightweight, Waterproof
+
+Title: "Wall Planter Set (3-Pack)"
+Description: Metal wall-mounted planters for herbs, succulents, and indoor greenery.
+Price: $19.99
+Category: Garden
+Features: Metal construction, 3-pack, Drainage hole, Wall screws included, Rustic design
+
+Title: "Seed Starter Kit"
+Description: Complete seed starting kit with 72-cell tray, humidity dome, and growing medium.
+Price: $21.99
+Category: Garden
+Features: 72 cells, Humidity dome, Grow medium included, Reusable tray, Beginner-friendly
+
+Title: "Vitamin C Serum 30ml"
+Description: Brightening 20% Vitamin C serum with hyaluronic acid and Vitamin E for glowing skin.
+Price: $18.99
+Category: Skincare
+Features: 20% Vitamin C, Hyaluronic acid, Vitamin E, 30ml, Suitable for all skin types
+
+Title: "Retinol Night Cream"
+Description: Anti-aging retinol moisturiser that reduces fine lines and improves skin texture overnight.
+Price: $22.99
+Category: Skincare
+Features: 0.5% retinol, Hyaluronic acid, 50ml, Fragrance-free, Dermatologist-tested
+
+Title: "Face Mask Sheet (10-Pack)"
+Description: Korean hydrating sheet masks with hyaluronic acid and aloe vera for all skin types.
+Price: $14.99
+Category: Skincare
+Features: 10 masks, Hyaluronic acid, Aloe vera, 25ml serum each, All skin types
+
+Title: "Lip Balm Set (6-Pack)"
+Description: SPF 15 moisturising lip balms in 6 flavours with shea butter and vitamin E.
+Price: $9.99
+Category: Skincare
+Features: SPF 15, 6 flavours, Shea butter, Vitamin E, Long-lasting
+
+Title: "Under-Eye Patches (30 Pairs)"
+Description: Collagen-infused hydrogel eye patches for dark circles and puffiness.
+Price: $16.99
+Category: Skincare
+Features: 30 pairs, Collagen, Hydrogel, Dark circle relief, Easy apply
+
+Title: "Wooden Jigsaw Puzzle Map"
+Description: Laser-cut world map wooden jigsaw puzzle with 200 unique shaped pieces.
+Price: $29.99
+Category: Toys & Games
+Features: 200 pieces, Laser-cut wood, World map, Difficulty: medium, Frame included
+
+Title: "Strategy Board Game"
+Description: Competitive territory strategy board game for 2–4 players with detailed miniatures.
+Price: $34.99
+Category: Toys & Games
+Features: 2–4 players, Ages 12+, 60–90 min playtime, Miniature figures, Replayable
+
+Title: "Flash Cards Alphabet (52-Pack)"
+Description: Double-sided alphabet and phonics flash cards for toddlers and early learners.
+Price: $8.99
+Category: Educational Toys
+Features: 52 cards, Double-sided, Laminated, Ages 2–5, Storage ring included
+
+Title: "Abacus Wooden Educational"
+Description: Classic 10-row wooden abacus for number learning and mental math practice.
+Price: $11.99
+Category: Educational Toys
+Features: 100 beads, Solid wood, 10 rows, Age 3+, Bright colors
+
+Title: "Glow in the Dark Stars (200-Pack)"
+Description: Self-adhesive glow-in-the-dark ceiling stars for kids' bedroom decoration.
+Price: $7.99
+Category: Kids' Room
+Features: 200 pieces, Self-adhesive, Non-toxic, Removable, Various sizes
+
+Title: "Baby Soft Toy Set (5-Pack)"
+Description: Plush soft toys in animal shapes with rattle and crinkle features for infants.
+Price: $18.99
+Category: Baby & Kids
+Features: 5 toys, BPA-free, Rattle & crinkle, Machine-washable, 0+ months
+
+Title: "Waterproof Bib (5-Pack)"
+Description: Silicone waterproof bibs with food-catching pocket for babies and toddlers.
+Price: $15.99
+Category: Baby & Kids
+Features: 5-pack, Silicone, Food-catch pocket, Dishwasher-safe, Adjustable neck
+
+Title: "Baby Nail File Set"
+Description: Gentle electric nail trimmer for babies and toddlers with 4 filing pads.
+Price: $12.99
+Category: Baby & Kids
+Features: Electric, 4 pads, Safe rounded tip, LED light, Quiet motor
+
+Title: "Stroller Organizer Bag"
+Description: Universal pram organizer with insulated cup holder and phone pocket.
+Price: $17.99
+Category: Baby & Kids
+Features: Universal fit, Insulated cup holder, Phone pocket, Detachable, Wipe-clean
+
+Title: "Kids Rain Boots"
+Description: Waterproof rubber rain boots with non-slip sole and fun animal prints for kids.
+Price: $19.99
+Category: Baby & Kids
+Features: Waterproof, Non-slip sole, Easy pull-on, Lightweight, Sizes 4–12 kids
+
+Title: "Dry Erase Markers (10-Pack)"
+Description: Low-odour dry-erase markers in 10 colours for whiteboards and glass surfaces.
+Price: $8.99
+Category: Office Supplies
+Features: 10 colours, Low-odour, Chisel tip, Works on glass, Easy-erase
+
+Title: "Fountain Pen Set"
+Description: Classic stainless steel fountain pen with ink cartridges and converter.
+Price: $17.99
+Category: Stationery
+Features: Stainless steel nib, 5 ink cartridges, Ink converter, Gift box, Smooth writing
+
+Title: "Bullet Journal Notebook"
+Description: Dotted A5 hardcover notebook with numbered pages and index for bullet journaling.
+Price: $14.99
+Category: Stationery
+Features: A5 dotted, 200 pages, Numbered, Hardcover, Ribbon bookmark
+
+Title: "Gel Pen Set (20-Pack)"
+Description: Smooth-writing gel pens in 20 vivid colours for journaling and art.
+Price: $11.99
+Category: Stationery
+Features: 20 colours, 0.5mm tip, Smooth ink, No bleeding, Comfort grip
+
+Title: "Stapler Heavy Duty"
+Description: Heavy-duty metal stapler that handles up to 40 sheets with jam-resistant mechanism.
+Price: $12.99
+Category: Office Supplies
+Features: 40-sheet capacity, Jam-resistant, Metal body, Includes staples, Non-slip base
+
+Title: "Portable Projector Mini"
+Description: Pocket-sized mini projector with 100-inch display support and HDMI input.
+Price: $69.99
+Category: Electronics
+Features: 100-inch display, HDMI & USB, Built-in speaker, 1080p support, Pocket-sized
+
+Title: "Smart Doorbell Camera"
+Description: Wi-Fi video doorbell with 1080p HD, motion alerts, and two-way audio.
+Price: $49.99
+Category: Smart Home
+Features: 1080p HD, Motion alerts, Two-way audio, Night vision, App control
+
+Title: "Smart Thermostat"
+Description: Programmable Wi-Fi thermostat with energy usage reports and voice control compatibility.
+Price: $44.99
+Category: Smart Home
+Features: Wi-Fi, Voice control, Energy reports, 7-day schedule, Easy install
+
+Title: "Extension Cord 3m (4-Socket)"
+Description: Surge-protected 3-metre extension cord with 4 outlets and 2 USB ports.
+Price: $16.99
+Category: Home Electrical
+Features: 4 outlets, 2 USB ports, Surge protection, 3m cord, Child-safe covers
+
+Title: "LED Strip Lights 5m"
+Description: USB-powered RGB LED strip lights with remote control for room ambiance.
+Price: $14.99
+Category: Home Electrical
+Features: 5m length, RGB, Remote control, USB powered, Cut-to-size, Self-adhesive
+
+Title: "Portable Blender 350ml"
+Description: USB rechargeable personal blender for smoothies and protein shakes on the go.
+Price: $24.99
+Category: Kitchen Appliances
+Features: 350ml, USB-C charge, 6 blades, BPA-free, Travel-ready
+
+Title: "Egg Cooker Electric"
+Description: Rapid egg cooker that boils, poaches, or steams up to 7 eggs automatically.
+Price: $17.99
+Category: Kitchen Appliances
+Features: 7-egg capacity, 3 cooking modes, Auto shut-off, Buzzer alert, BPA-free
+
+Title: "Sandwich Maker"
+Description: Non-stick sandwich toaster and panini press with indicator light and cool-touch handle.
+Price: $22.99
+Category: Kitchen Appliances
+Features: Non-stick plates, Indicator light, Cool-touch handle, 750W, Easy clean
+
+Title: "Olive Oil Dispenser Bottle"
+Description: Stainless steel oil and vinegar dispenser bottle with drip-free spout.
+Price: $13.99
+Category: Kitchen Tools
+Features: 500ml, Drip-free, Stainless steel, Silicone seal, Measurements marked
+
+Title: "Salad Spinner 4L"
+Description: Large BPA-free salad spinner with one-press brake and non-slip base.
+Price: $18.99
+Category: Kitchen Tools
+Features: 4L capacity, One-press brake, Non-slip, BPA-free, Collapsible bowl
+
+Title: "Cheese Grater Box 4-Sided"
+Description: Stainless steel box grater with 4 grating surfaces and non-slip handle.
+Price: $12.99
+Category: Kitchen Tools
+Features: 4 surfaces, Stainless steel, Non-slip handle, Dishwasher-safe, Compact
+
+Title: "Garlic Press Stainless Steel"
+Description: Heavy-duty garlic press with wide chamber and easy-clean design.
+Price: $9.99
+Category: Kitchen Tools
+Features: Wide chamber, No peeling needed, Dishwasher-safe, Stainless steel, Ergonomic
+
+Title: "Cocktail Shaker Set"
+Description: Stainless steel cocktail shaker set with strainer, jigger, and bar spoon.
+Price: $23.99
+Category: Bar & Drinkware
+Features: 750ml shaker, Strainer, Jigger, Bar spoon, Gift box
+
+Title: "Wine Glass Set (6-Pack)"
+Description: Crystal-clear stemless wine glasses in a set of 6 for red and white wine.
+Price: $27.99
+Category: Bar & Drinkware
+Features: 6-pack, Stemless, Lead-free crystal, 400ml capacity, Dishwasher-safe
+
+Title: "Reusable Metal Straws (8-Pack)"
+Description: Stainless steel reusable straws with cleaning brushes and carry pouch.
+Price: $8.99
+Category: Bar & Drinkware
+Features: 8-pack, 2 sizes, Cleaning brush included, Carry pouch, Eco-friendly
+
+Title: "Coffee Grinder Electric"
+Description: Burr coffee grinder with 18 grind settings for espresso, drip, and French press.
+Price: $37.99
+Category: Kitchen Appliances
+Features: 18 settings, Burr grinder, 200g hopper, Stainless steel, Anti-static
