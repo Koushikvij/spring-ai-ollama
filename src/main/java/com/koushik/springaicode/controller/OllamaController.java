@@ -1,5 +1,6 @@
-package com.koushik.springaicode;
+package com.koushik.springaicode.controller;
 
+import java.util.List;
 import java.util.Map;
 
 import org.slf4j.Logger;
@@ -12,12 +13,17 @@ import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.ChatOptions;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.PromptTemplate;
+import org.springframework.ai.document.Document;
 import org.springframework.ai.ollama.OllamaChatModel;
+import org.springframework.ai.vectorstore.SearchRequest;
+import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.koushik.springaicode.service.EmbeddingService;
 
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 
@@ -35,13 +41,16 @@ public class OllamaController {
             MessageWindowChatMemory.builder().build();
 
     private final EmbeddingService embeddingService;
+
+    private final VectorStore vectorStore;
     // public OllamaController(OllamaChatModel chatModel) {
     //     this.chatClient = ChatClient.create(chatModel);
     // }
 
-    public OllamaController(OllamaChatModel ollamaChatModel,  EmbeddingService embeddingService) {
+    public OllamaController(OllamaChatModel ollamaChatModel,  EmbeddingService embeddingService, VectorStore vectorStore) {
 
         this.embeddingService = embeddingService;
+        this.vectorStore = vectorStore;
 
         this.chatClient = ChatClient.builder(ollamaChatModel)
                 .defaultOptions(ChatOptions.builder()
@@ -129,6 +138,18 @@ public class OllamaController {
         }
         logger.debug("Similarity for texts: {} and {}: {}", text1, text2, dotProduct / (Math.sqrt(norm1) * Math.sqrt(norm2)));
         return dotProduct / (Math.sqrt(norm1) * Math.sqrt(norm2));
+    }
+
+    @PostMapping("/api/product")
+    public List<Document> getProduct(@RequestParam String text) {
+
+        // return vectorStore.similaritySearch(text);
+        return vectorStore.similaritySearch(SearchRequest.builder()
+                .query(text)
+                .topK(5)
+                .similarityThreshold(0.6)
+                .build());
+
     }
 }
 

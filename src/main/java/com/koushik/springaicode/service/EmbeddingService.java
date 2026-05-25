@@ -1,4 +1,4 @@
-package com.koushik.springaicode;
+package com.koushik.springaicode.service;
 
 import java.util.List;
 import java.util.Map;

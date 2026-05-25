@@ -1,3 +1,4 @@
+package com.koushik.springaicode.config;
 // package com.koushik.springaicode;
 
 // import org.springframework.ai.embedding.EmbeddingModel;

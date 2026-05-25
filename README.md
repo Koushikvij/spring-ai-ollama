@@ -13,6 +13,7 @@ What it does
 - **Movie recommendation** — structured prompt template that returns title, description, cast, runtime, director, and IMDB rating (`POST /api/recommend`)
 - **Text embedding** — converts a float vector using `bge-large:latest` (`POST /api/embedding`)
 - **Cosine similarity** — computes the semantic similarity score between two strings (`POST /api/similarity`)
+- **Product Search** - converts the details of the products into a PGVector and then provide the top 5 responses that have matching score of atleast 60% (`POST /api/product`)
 
 Prerequisites
 -------------
@@ -52,6 +53,11 @@ Installing Ollama
 Build and run
 -------------
 
+Ensure the docker is up and running:
+```powershell
+docker-compose up -d
+```
+
 Build the project:
 
 ```powershell
@@ -74,6 +80,15 @@ Run tests:
 
 ```powershell
 .\mvnw.cmd test
+```
+
+If you want to close the project then use CTRL+C to quit the mvn execution
+To down the docker-compose use the following,
+Ensure the docker is up and running:
+
+```powershell
+docker-compose down
+docker-compose down -v
 ```
 
 API endpoints
@@ -111,25 +126,46 @@ POST /api/similarity?text1=dog&text2=cat
 
 Returns a score between -1 and 1 indicating how semantically similar the two strings are. Values closer to 1 mean more similar.
 
+### Product Search
+
+```
+POST /api/product?text=laptop
+```
+
+Returns top 5 products matching the given text with a matching score of 60%.
+
 Where to look in the code
 -------------------------
 
 - Main application: `src/main/java/com/koushik/springaicode/SpringAiCodeApplication.java`
-- Controller: `src/main/java/com/koushik/springaicode/OllamaController.java`
-- Embedding service: `src/main/java/com/koushik/springaicode/EmbeddingService.java`
+- Controller: `src/main/java/com/koushik/springaicode/controller/OllamaController.java`
+- Embedding service: `src/main/java/com/koushik/springaicode/service/EmbeddingService.java`
+- Data Initializer: `src\main\java\com\koushik\springaicode\config\DataInitializer.java`
 - Configuration: `src/main/resources/application.properties`
+- Schema: `src\main\resources\init\schema.sql`
+- Product Details: `src\main\resources\product_details.txt`
 
 Configuration
 -------------
 
 Key properties in `application.properties`:
 
-| Property | Value | Description |
-|---|---|---|
-| `spring.ai.ollama.base-url` | `http://localhost:11434` | Ollama server URL |
-| `spring.ai.ollama.chat.options.model` | `gpt-oss` | Chat model |
-| `spring.ai.ollama.chat.options.temperature` | `0.7` | Creativity of chat responses (0.0 = deterministic, 1.0 = most random) |
-| `spring.ai.ollama.embedding.options.model` | `bge-large:latest` | Embedding model |
+| Property                                       | Value                                      | Description                                                               |
+| ---------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------- |
+| `spring.application.name`                      | `SpringAICode`                             | Name of the Spring Boot application                                       |
+| `spring.ai.ollama.base-url`                    | `http://localhost:11434`                   | Ollama server base URL                                                    |
+| `spring.ai.ollama.chat.options.model`          | `gpt-oss`                                  | Chat model used for generating responses                                  |
+| `spring.ai.ollama.chat.options.temperature`    | `0.7`                                      | Controls randomness of responses (0 = deterministic, 1 = highly creative) |
+| `spring.ai.model.embedding`                    | `ollama`                                   | Embedding provider used for vector generation                             |
+| `spring.ai.ollama.embedding.options.model`     | `bge-large:latest`                         | Embedding model used to generate vector embeddings                        |
+| `spring.datasource.url`                        | `jdbc:postgresql://localhost:5432/koushik` | PostgreSQL database connection URL                                        |
+| `spring.datasource.username`                   | `postgres`                                 | Database username                                                         |
+| `spring.datasource.password`                   | `2403`                                     | Database password                                                         |
+| `spring.datasource.driver-class-name`          | `org.postgresql.Driver`                    | JDBC driver for PostgreSQL                                                |
+| `spring.jpa.show-sql`                          | `true`                                     | Logs generated SQL queries in console                                     |
+| `spring.sql.init.schema-locations`             | `classpath:init/schema.sql`                | Location of schema initialization script                                  |
+| `spring.sql.init.mode`                         | `always`                                   | Always runs schema.sql at startup                                         |
+| `spring.main.allow-bean-definition-overriding` | `true`                                     | Allows overriding Spring beans (useful in dev/testing)                    |
 
 Troubleshooting
 ---------------
